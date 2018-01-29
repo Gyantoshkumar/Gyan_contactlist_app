@@ -33,7 +33,7 @@ function  AppCtrl($scope, $http){
             $http.get('/contactlist/' + id).success(function(response)
               {
                 $scope.contact=response;
-                //refresh();
+               
               });
            }
            $scope.update=function()
